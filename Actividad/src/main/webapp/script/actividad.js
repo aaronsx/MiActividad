@@ -2,8 +2,8 @@ alert(document.lastModified);
 function ejemplo1()
 {
 	
-	var apellido =document.getElementById("apellit").value;
-	 var nombre = document.getElementById("nombret").value;
+	let apellido =document.getElementById("apellit");
+	 let nombre = document.getElementById("nombret");
 
 	let media=(4.5+2.1);
 	document.cookie = "nombre="+nombre;
